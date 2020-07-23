@@ -1,0 +1,130 @@
+@font-face {
+    font-family: reactor7; src: url("fonts/reactor7/Reactor7.ttf");
+ }
+@font-face {
+    font-family: ThinPixel7; src: url("fonts/ThinPixel7.ttf");
+ }
+ body {
+    background-color: black;
+    font-family: reactor7, sans-serif;
+    font-weight: 100;
+    color: white;
+}
+#charloadout {
+    background: linear-gradient(140deg, blue,black);
+    margin-top: 5rem;
+    border-radius: 8px;
+    border: 5px ridge white;
+    margin-left: 5px;
+    width: 900px;
+    height: 580px;
+}
+#mainmenu {
+    background: linear-gradient(140deg, blue, black);
+    border: 5px ridge white;
+    border-radius: 8px;
+    position: abosolute;
+    width: 180px;
+    margin-top: -600px;
+    margin-left: 840px;
+}
+#timemoney {
+    background: linear-gradient(140deg, blue, black);
+    border: 5px ridge white;
+    border-radius: 8px;
+    position: abosolute;
+    width: 180px;
+    margin-top: 140px;
+    margin-left: 840px;
+}
+#location {
+    background: linear-gradient(140deg, blue, black);
+    border: 5px ridge white;
+    border-radius: 8px;
+    position: abosolute;
+    width: 380px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 640px;
+}
+#finger {
+    margin-top: -1230px;
+    margin-left: 730px;
+}
+h5 {
+    color: rgb(9, 202, 228);
+    font-family: 'Press Start 2P', cursive;
+}
+h3 {
+    margin: 0px;
+}
+h2 {
+    margin: 0px;
+    line-height: 34px;
+}
+p {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.3rem;
+    margin: 0;
+ }
+#lvl {
+    text-align: left;
+}
+#levelprogress {
+    border: 3px ridge white;
+    margin: 0px;
+    margin-left: 25px;
+}
+progress#levelprogress::-webkit-progress-value {
+    background: linear-gradient(180deg,red, white, red);
+  }
+#cloudmp {
+    border: 1px ridge black;
+    width: 200px;
+    height: 4px;
+    margin: 0px;
+}
+progress#cloudmp::-webkit-progress-value {
+    background: linear-gradient(45deg,green, white);
+  }
+progress#cloudmp::-webkit-progress-bar {
+    background: rgb(70, 21, 21);
+  }
+  #cloudhp {
+    border: 1px ridge black;
+    width: 200px;
+    height: 4px;
+    margin: 0px;
+}
+progress#cloudhp::-webkit-progress-value {
+    background: linear-gradient(45deg,green, white);
+  }
+  progress#cloudhp::-webkit-progress-bar {
+    background: rgb(70, 21, 21);
+  }
+  .normspace {
+    line-height: 1.2;
+}
+ .squish {
+     line-height: .8;
+ }
+ .yellowtext {
+     color: yellow;
+ }
+ .redtext {
+     color: red;
+ }
+ .greytext {
+     color: rgb(72, 72, 72);
+ }
+ .giltext p {
+     font-size: 1rem;
+     line-height: 2;
+     padding-left: 10px;
+ }
+ .timetext p {
+     font-size: 1rem;
+     line-height: 2;
+     letter-spacing: -4px;
+     padding-left: 34px;
+ }
